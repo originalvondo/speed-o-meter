@@ -1,0 +1,3 @@
+add_library(profiler STATIC src/profiler.cpp)
+
+target_include_directories(profiler PUBLIC Includes)
